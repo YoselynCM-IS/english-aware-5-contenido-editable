@@ -19,31 +19,34 @@
         <!--Empezar a agregar contenido-->
         
 	  <span style="position: absolute; top: 358px; left: 89px">
-	  <textarea rows = "1" cols = "50" maxlength = "50" id="ea5_p59res1"></textarea>
+	  <textarea rows = "1" cols = "45" maxlength = "45" id="ea5_p59res1"></textarea>
 	  </span>
 	  <span style="position: absolute; top: 377px; left: 70px">
-	  <textarea rows = "1" cols = "45" maxlength = "45" id="ea5_p59res2"></textarea>
+	  <textarea rows = "1" cols = "38" maxlength = "38" id="ea5_p59res2"></textarea>
 	  </span>
 	  <span style="position: absolute; top: 661px; left: 383px">
-	  <textarea rows = "1" cols = "4" maxlength = "4" id="ea5_p59res3"></textarea>
+	  <textarea rows = "1" cols = "3" maxlength = "3" id="ea5_p59res3"></textarea>
 	  </span>
 	  <span style="position: absolute; top: 680px; left: 68px">
-	  <textarea rows = "1" cols = "54" maxlength = "54" id="ea5_p59res4"></textarea>
+	  <textarea rows = "1" cols = "49" maxlength = "49" id="ea5_p59res4"></textarea>
 	  </span>
 	  <span style="position: absolute; top: 700px; left: 67px">
-	  <textarea rows = "1" cols = "25" maxlength = "25" id="ea5_p59res5"></textarea>
+	  <textarea rows = "1" cols = "21" maxlength = "21" id="ea5_p59res5"></textarea>
+	  </span>
+	  <span style="position: absolute; top: 265px; left: 648px">
+	  <textarea rows = "1" cols = "14" maxlength = "14" id="ea5_p59res10"></textarea>
 	  </span>
 	  <span style="position: absolute; top: 329px; left: 510px">
-	  <textarea rows = "1" cols = "15" maxlength = "15" id="ea5_p59res6"></textarea>
+	  <textarea rows = "1" cols = "12" maxlength = "12" id="ea5_p59res6"></textarea>
 	  </span>
 	  <span style="position: absolute; top: 369px; left: 633px">
-	  <textarea rows = "1" cols = "15" maxlength = "15" id="ea5_p59res7"></textarea>
+	  <textarea rows = "1" cols = "12|" maxlength = "12" id="ea5_p59res7"></textarea>
 	  </span>
 	  <span style="position: absolute; top: 408px; left: 570px">
-	  <textarea rows = "1" cols = "15" maxlength = "15" id="ea5_p59res8"></textarea>
+	  <textarea rows = "1" cols = "12" maxlength = "12" id="ea5_p59res8"></textarea>
 	  </span>
 		<span style="position: absolute; top: 449px; left: 629px">
-			<textarea rows = "1" cols = "15" maxlength = "15" id="ea5_p59res9"></textarea>
+			<textarea rows = "1" cols = "12" maxlength = "12" id="ea5_p59res9"></textarea>
 		</span>
 		
        
@@ -87,6 +90,7 @@
     document.getElementById('ea5_p59res7').value = localStorage.getItem('ea5_p59res7');
     document.getElementById('ea5_p59res8').value = localStorage.getItem('ea5_p59res8');
     document.getElementById('ea5_p59res9').value = localStorage.getItem('ea5_p59res9');
+	document.getElementById('ea5_p59res10').value = localStorage.getItem('ea5_p59res10');
     
 
     function save_data(){
@@ -108,6 +112,8 @@
         localStorage.setItem('ea5_p59res8', ea5_p59res8);
         var ea5_p59res9 = document.getElementById('ea5_p59res9').value;
         localStorage.setItem('ea5_p59res9', ea5_p59res9);
+		var ea5_p59res10 = document.getElementById('ea5_p59res10').value;
+        localStorage.setItem('ea5_p59res10', ea5_p59res10);
         
         alert("Saved correctly");
     }
