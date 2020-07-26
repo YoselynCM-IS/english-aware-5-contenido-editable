@@ -29,6 +29,9 @@
 	  <span style="position: absolute; top: 773px; left: 472px">
 	  <textarea rows = "1" cols = "40" maxlength = "40" id="ea5_p44res4"></textarea>
 	  </span>
+	  <span style="position: absolute; top: 810px; left: 640px">
+	  <textarea rows = "1" cols = "15" maxlength = "15" id="ea5_p44res18"></textarea>
+	  </span>
 	  <span style="position: absolute; top: 833px; left: 471px">
 	  <textarea rows = "1" cols = "40" maxlength = "40" id="ea5_p44res5"></textarea>
 	  </span>
@@ -108,6 +111,7 @@
     document.getElementById('ea5_p44res5').value = localStorage.getItem('ea5_p44res5');
     document.getElementById('ea5_p44res6').value = localStorage.getItem('ea5_p44res6');
     document.getElementById('ea5_p44res7').value = localStorage.getItem('ea5_p44res7');
+	document.getElementById('ea5_p44res18').value = localStorage.getItem('ea5_p44res18');
 	document.getElementById('ea5_p44res8').value = localStorage.getItem('ea5_p44res8');
      // ** INICIO ACTIVACION CHECKBOK ** //
     if(document.getElementById('ea5_p44res8').value == "1")
@@ -174,6 +178,8 @@
         localStorage.setItem('ea5_p44res6', ea5_p44res6);
         var ea5_p44res7 = document.getElementById('ea5_p44res7').value;
         localStorage.setItem('ea5_p44res7', ea5_p44res7);
+		var ea5_p44res18 = document.getElementById('ea5_p44res18').value;
+        localStorage.setItem('ea5_p44res18', ea5_p44res18);
 		//** INICIO PARA GUARDAR CHECKBOX **//
         var isChecked = document.getElementById('ea5_p44res8').checked;
         if(isChecked){

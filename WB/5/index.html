@@ -49,35 +49,44 @@
 			<textarea rows = "1" cols = "10" maxlength = "10" id="ea5_p103res10"></textarea>
 	  </span>
       
-      <span style="position: absolute; top: 604px; left: 94px">
-			<textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res11"></textarea>
+      <span style="position: absolute; top: 604px; left: 70px">
+			<textarea cols = "50" rows = "1" maxlength = "50" id="ea5_p103res11"></textarea>
 	  </span>
-      <span style="position: absolute; top: 664px; left: 92px">
-	  <textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res12"></textarea>
+      <span style="position: absolute; top: 664px; left: 70px">
+	  <textarea cols = "50" rows = "1" maxlength = "50" id="ea5_p103res12"></textarea>
       </span>
-      <span style="position: absolute; top: 704px; left: 93px">
-	  <textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res13"></textarea>
+      <span style="position: absolute; top: 704px; left: 70px">
+	  <textarea cols = "50" rows = "1" maxlength = "50" id="ea5_p103res13"></textarea>
 	   </span>
-      <span style="position: absolute; top: 765px; left: 94px">
-	  <textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res14"></textarea>
+     <span style="position: absolute; top: 743px; left: 282px">
+	  <textarea cols = "15" rows = "1" maxlength = "15" id="ea5_p103res61"></textarea>
 	   </span>
-      <span style="position: absolute; top: 806px; left: 92px">
-	  <textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res15"></textarea>
+      <span style="position: absolute; top: 765px; left: 70px">
+	  <textarea cols = "50" rows = "1" maxlength = "50" id="ea5_p103res14"></textarea>
 	   </span>
-      <span style="position: absolute; top: 866px; left: 92px">
-	  <textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res16"></textarea>
+      <span style="position: absolute; top: 806px; left: 70px">
+	  <textarea cols = "50" rows = "1" maxlength = "50" id="ea5_p103res15"></textarea>
 	   </span>
-      <span style="position: absolute; top: 906px; left: 93px">
-	  <textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res17"></textarea>
+     <span style="position: absolute; top: 844px; left: 262px">
+	  <textarea cols = "17" rows = "1" maxlength = "17" id="ea5_p103res62"></textarea>
 	   </span>
-      <span style="position: absolute; top: 946px; left: 91px">
-	  <textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res18"></textarea>
+      <span style="position: absolute; top: 866px; left: 70px">
+	  <textarea cols = "50" rows = "1" maxlength = "50" id="ea5_p103res16"></textarea>
 	   </span>
-      <span style="position: absolute; top: 1006px; left: 91px">
-	  <textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res19"></textarea>
+      <span style="position: absolute; top: 906px; left: 70px">
+	  <textarea cols = "50" rows = "1" maxlength = "50" id="ea5_p103res17"></textarea>
 	   </span>
-       <span style="position: absolute; top: 129px; left: 487px">
-			<textarea cols = "43" rows = "1" maxlength = "43" id="ea5_p103res20"></textarea>
+      <span style="position: absolute; top: 946px; left: 70px">
+	  <textarea cols = "50" rows = "1" maxlength = "50" id="ea5_p103res18"></textarea>
+	   </span>
+      <span style="position: absolute; top: 986px; left: 308px">
+	  <textarea cols = "12" rows = "1" maxlength = "12" id="ea5_p103res63"></textarea>
+	   </span>
+      <span style="position: absolute; top: 1006px; left: 70px">
+	  <textarea cols = "50" rows = "1" maxlength = "50" id="ea5_p103res19"></textarea>
+	   </span>
+       <span style="position: absolute; top: 129px; left: 471px; font-size: 90%">
+			<textarea cols = "46" rows = "1" maxlength = "46" id="ea5_p103res20"></textarea>
 		</span>
       
       <span style="position: absolute; top: 201px; left: 598px">
@@ -293,6 +302,9 @@
     document.getElementById('ea5_p103res58').value = localStorage.getItem('ea5_p103res58');
     document.getElementById('ea5_p103res59').value = localStorage.getItem('ea5_p103res59');
     document.getElementById('ea5_p103res60').value = localStorage.getItem('ea5_p103res60');
+	document.getElementById('ea5_p103res61').value = localStorage.getItem('ea5_p103res61');
+	document.getElementById('ea5_p103res62').value = localStorage.getItem('ea5_p103res62');
+	document.getElementById('ea5_p103res63').value = localStorage.getItem('ea5_p103res63');
     
 
     function save_data(){
@@ -416,6 +428,12 @@
         localStorage.setItem('ea5_p103res59', ea5_p103res59);
         var ea5_p103res60 = document.getElementById('ea5_p103res60').value;
         localStorage.setItem('ea5_p103res60', ea5_p103res60);
+		var ea5_p103res61 = document.getElementById('ea5_p103res61').value;
+        localStorage.setItem('ea5_p103res61', ea5_p103res61);
+		var ea5_p103res62 = document.getElementById('ea5_p103res62').value;
+        localStorage.setItem('ea5_p103res62', ea5_p103res62);
+		var ea5_p103res63 = document.getElementById('ea5_p103res63').value;
+        localStorage.setItem('ea5_p103res63', ea5_p103res63);
         
         alert("Saved correctly");
     }
